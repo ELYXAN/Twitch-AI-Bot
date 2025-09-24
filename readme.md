@@ -2,9 +2,6 @@
 
 A Python bot that connects to your Twitch chat, listens for a specific channel point reward, and uses the OpenAI API (e.g., `gpt-4o`) to answer user prompts directly in chat.
 
-
-![Demo GIF — replace this URL with your own GIF](https://placehold.co/600x200?text=Replace+with+your+GIF)
-
 ---
 
 ## ✨ Features
