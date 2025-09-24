@@ -21,7 +21,7 @@ Follow these steps to get the bot running for your channel.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Twitch-AI-Bot.git
+git clone https://github.com/ELYXAN/Twitch-AI-Bot.git
 cd Twitch-AI-Bot
 ```
 
