@@ -68,7 +68,8 @@ class AIBot(commands.Bot):
             logging.info(f"-> Reward redeemed by '{user}': '{prompt}'")
             
             try:
-                await message.channel.send(f"🤖 @{user}, your request is being processed...")
+                await message.channel.send
+                print(f"Message from {user} is beeing analyzed")
 
                 response = client.chat.completions.create(
                     model="gpt-4o",
@@ -76,7 +77,7 @@ class AIBot(commands.Bot):
                         {"role": "system", "content": "You are a helpful Twitch chatbot. Keep your answers brief and concise, under 400 characters."},
                         {"role": "user", "content": prompt}
                     ],
-                    max_tokens=80,
+                    max_tokens=100,
                     temperature=0.7
                 )
                 
